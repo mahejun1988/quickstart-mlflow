@@ -60,16 +60,17 @@ MLflow社区版在计算巢部署的费用主要涉及：
 ## 部署流程
 1. 访问计算巢MLflow社区版[部署链接](https://computenest.console.aliyun.com/user/cn-hangzhou/serviceInstanceCreate?ServiceId=service-ba5e800a0e124c23935b)
 ，按提示填写部署参数：
-    ![image.png](2.png)![image.png](3.png)!
+    ![image.png](2.png)
+    ![image.png](3.png)
 
-2. 参数填写完成后可以看到对应询价明细，确认参数后点击**下一步：确认订单**。
+3. 参数填写完成后可以看到对应询价明细，确认参数后点击**下一步：确认订单**。
    ![image.png](4.png)
 
-3. 确认订单完成后同意服务协议并点击**立即创建**
+4. 确认订单完成后同意服务协议并点击**立即创建**
    进入部署阶段。
     ![image.png](5.png)
 
-4. 部署完成后，可以通过查看MLflow服务访问URL，访问ui页面或者在模型中集成服务地址
+5. 部署完成后，可以通过查看MLflow服务访问URL，访问ui页面或者在模型中集成服务地址
  ## 使用MLflow管理模型和实验
 例如，如果您在 IP 地址**192.168.0.1**和端口**5000**的计算机上运行上述命令，则可以通过以下方式向其添加跟踪数据：
 ```python
