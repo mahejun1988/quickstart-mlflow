@@ -73,6 +73,7 @@ MLflow社区版在计算巢部署的费用主要涉及：
 5. 部署完成后，可以通过查看MLflow服务访问URL，访问ui页面或者在模型中集成服务地址
  ## 使用MLflow管理模型和实验
 例如，如果您在 IP 地址**192.168.0.1**和端口**5000**的计算机上运行上述命令，则可以通过以下方式向其添加跟踪数据：
+
 ```python
 mlflow.set_tracking_uri("http://192.168.0.1:5000")
 mlflow.autolog()  # Or other tracking functions
